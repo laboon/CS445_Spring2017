@@ -92,6 +92,17 @@ class BST {
      */
 
     public boolean contains(int n) {
+
+	// If there are no nodes in the tree, whatever value
+	// we are looking for is definitely not there.
+	
+	if (root == null) {
+	    return false;
+	}
+
+	// Otherwise, start recursively looking through the tree,
+	// starting with the root node.
+	
 	return root.contains(n);
     }
 
