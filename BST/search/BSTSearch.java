@@ -31,29 +31,29 @@ public class BSTSearch {
 	b.add(8);
 	b.add(10);
 	
-	System.out.println("****************************************");
+	System.out.println("\n****************************************");
 	System.out.println("Values which exist in BST (should return true)");
 	System.out.println("\nLooking for 5");
-	System.out.println("5 exists?   " + b.hasValue(5));
+	System.out.println("5 exists?   " + b.contains(5));
 	System.out.println("\nLooking for 9");
-	System.out.println("9 exists?   " + b.hasValue(9));
+	System.out.println("9 exists?   " + b.contains(9));
 	System.out.println("\nLooking for 3");
-	System.out.println("3 exists?   " + b.hasValue(3));
+	System.out.println("3 exists?   " + b.contains(3));
 	System.out.println("\nLooking for 10");
-	System.out.println("10 exists?   " + b.hasValue(10));
+	System.out.println("10 exists?   " + b.contains(10));
 	System.out.println("\nLooking for 8");
-	System.out.println("8 exists?   " + b.hasValue(8));
+	System.out.println("8 exists?   " + b.contains(8));
 	
-	System.out.println("****************************************");
+	System.out.println("\n****************************************");
 	System.out.println("Values which don't exist in BST (should return false)");
 	System.out.println("\nLooking for 100");
-	System.out.println("100 exists? " + b.hasValue(100));
+	System.out.println("100 exists? " + b.contains(100));
 	System.out.println("\nLooking for 2");
-	System.out.println("2 exists?   " + b.hasValue(2));
+	System.out.println("2 exists?   " + b.contains(2));
 	System.out.println("\nLooking for 4");
-	System.out.println("4 exists?   " + b.hasValue(4));
+	System.out.println("4 exists?   " + b.contains(4));
 	System.out.println("\nLooking for -1");
-	System.out.println("-1 exists?  " + b.hasValue(-1));
+	System.out.println("-1 exists?  " + b.contains(-1));
 
 	
 	
@@ -91,8 +91,8 @@ class BST {
      * @return boolean true if value exists in BST; false otherwise
      */
 
-    public boolean hasValue(int n) {
-	return root.hasValue(n);
+    public boolean contains(int n) {
+	return root.contains(n);
     }
 
 }
@@ -163,7 +163,7 @@ class BSTNode {
      * @return boolean true if value exists in subtree; false otherwise
      */
 
-    public boolean hasValue(int n) {
+    public boolean contains(int n) {
 
 	boolean toReturn = false;
 	
@@ -183,7 +183,7 @@ class BSTNode {
 		toReturn = false;
 	    } else {
 		System.out.println("\t*" + n + "* < " + data + " - going left");
-		toReturn = left.hasValue(n);
+		toReturn = left.contains(n);
 	    }
 	} else {
 	    // n must be > data
@@ -199,7 +199,7 @@ class BSTNode {
 		toReturn = false;
 	    } else {
 		System.out.println("\t*" + n + "* > " + data + " - going right");
-		toReturn = right.hasValue(n);
+		toReturn = right.contains(n);
 	    }
 	}
 
