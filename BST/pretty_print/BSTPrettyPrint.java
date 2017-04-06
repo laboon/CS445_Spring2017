@@ -1,25 +1,7 @@
 import java.lang.Math;
 
-public class BSTTraverseDemo {
+public class BSTPrettyPrint {
 
-    /**
-     * Given a SimpleBST, traverse in the following
-     * manners:
-     *   1. Pre-Order
-     *   2. In-Order
-     *   3. Post-Order
-     * @param b A simple BST
-     */
-    
-    public static void traverseDemo(SimpleBST b) {
-	System.out.println("Pre-order:");
-	b.preOrderTraverse();
-	System.out.println("In-order:");
-	b.inOrderTraverse();
-	System.out.println("Post-order:");
-	b.postOrderTraverse();
-    }
-    
     /**
      * Program execution starts here
      * Go through several BSTs and traverse in three
@@ -35,8 +17,9 @@ public class BSTTraverseDemo {
 	b1.setRoot(new BSTNode(5));
 
 	System.out.println("\n\nb1:");
-	traverseDemo(b1);
+	b1.prettyPrint();
 
+	
 	// Create a BST with two child nodes, and traverse.
 	// BST:                    5
 	//                        / \
@@ -47,8 +30,8 @@ public class BSTTraverseDemo {
 	b2.root.right = new BSTNode(9);
 
 	System.out.println("\n\nb2:");
-	traverseDemo(b2);
-	
+	b2.prettyPrint();
+
 	// Create a degenerate BST, with the same number of nodes
 	// as before, but not a full tree, all left child nodes.
 	// BST:                      5
@@ -61,8 +44,8 @@ public class BSTTraverseDemo {
 	b3.root.left = new BSTNode(3);
 	b3.root.left.left = new BSTNode(1);
 
-	System.out.println("\n\nvb3:");
-	traverseDemo(b3);
+	System.out.println("\n\nb3:");
+	b3.prettyPrint();
 	
 	// Create a larger BST, with diff number of child nodes
 	// BST:                      5
@@ -83,8 +66,7 @@ public class BSTTraverseDemo {
 	b4.root.right.right.right = new BSTNode(10);
 	
 	System.out.println("\n\nb4:");
-	traverseDemo(b4);
-
+	b4.prettyPrint();
 	
     }
     
@@ -104,6 +86,15 @@ class SimpleBST {
     
     public BSTNode root = null;
 
+    /**
+     * Pretty print out this BST
+     * SIDE EFFECT: Prints out BST to console
+     */
+
+    public void prettyPrint() {
+	root.prettyPrint(0);
+    }
+    
     /**
      * Return height of this tree
      * @param int height of tree starting at root
@@ -224,6 +215,30 @@ class BSTNode {
 	return "" + data;
     }
 
+    /**
+     * Pretty-print out this node and all child nodes.
+     * Keeps track of how deep we are in tree via indent argument
+     * SIDE EFFECT: Prints this node and child nodes to console
+     * @param indent - indent level (depth of tree)
+     */
+    
+    public void prettyPrint(int indent) {
+	for (int j = 0; j <= indent; j++) {
+	    if (j == indent) {
+		System.out.print("|->");
+	    } else {
+		System.out.print("   ");
+	    }
+	}
+	System.out.println(data);
+	if (left != null) {
+	    left.prettyPrint(indent + 1);
+	}
+	if (right != null) {
+	    right.prettyPrint(indent + 1);
+	}
+    }
+    
     /**
      * Traverse tree in pre-order
      * NOTE: Recursive method
