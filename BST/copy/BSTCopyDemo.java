@@ -31,7 +31,7 @@ public class BSTCopyDemo {
 	
 	SimpleBST b2Copy = b2.copy();
 	System.out.println("b2 copy height = " + b2Copy.height());
-
+	
 	// Create a degenerate BST, with the same number of nodes
 	// as before, but not a full tree, all left child nodes.
 	// Height should be three:   5

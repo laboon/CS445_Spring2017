@@ -16,6 +16,7 @@ public class BSTHeightDemo {
 	b1.setRoot(new BSTNode(5));
 	System.out.println("b1 height = " + b1.height());
 
+	
 	// Create a BST with two child nodes.
 	// Height should be two:   5
 	//                        / \
@@ -39,6 +40,7 @@ public class BSTHeightDemo {
 	b3.root.left.left = new BSTNode(1);
 	System.out.println("b3 height = " + b3.height());
 
+	
 	// Create a larger BST, with diff number of child nodes
 	// Height should be four:    5
 	//                          / \ 

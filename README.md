@@ -3,7 +3,6 @@ Class Repo for Spring 2017 CS445 Data Structures and Algorithms class w/ Prof. L
 
 Taking over for Prof. Ramirez
 
-
 ```
 Bill Laboon
 Email: (my last name) at cs dot pitt dot edu
