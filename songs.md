@@ -60,4 +60,4 @@ Over There: https://en.wikipedia.org/wiki/Over_There
 
 George Cohan (composer): https://en.wikipedia.org/wiki/George_M._Cohan
 
-_If you liked this, check out_: "It's A Long Way To Tipperary", "The Last Long Mile", "Praise The Lord and Pass the Ammunition" (technically WWII, but similar), "The Rose of No Man's Land"
+_If you liked this, check out_: "It's A Long Way To Tipperary", "The Last Long Mile", "Praise The Lord and Pass the Ammunition" (technically WWII, but similar), "The Rose of No Man's Land", "When Johnny Comes Marching Home"
