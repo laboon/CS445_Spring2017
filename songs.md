@@ -12,6 +12,8 @@ Joe Hill (composer): https://en.wikipedia.org/wiki/Joe_Hill
 
 IWW (The Wobblies): https://en.wikipedia.org/wiki/Industrial_Workers_of_the_World
 
+_If you like this, check out_: Pete Seeger, Woody Guthrie, Joan Baez, Paul Robeson
+
 ## Vera Lynn - "The White Cliffs of Dover"
 
 _6 APR 2017_
@@ -24,6 +26,8 @@ Vera Lynn (singer): https://en.wikipedia.org/wiki/Vera_Lynn
 
 The Battle of Britain (when song was written): https://en.wikipedia.org/wiki/Battle_of_Britain
 
+_If you like this, check out_: Doris Day, Jo Stafford, Billie Holiday, Peggy Lee
+
 ## Tommy Johnson - "Canned Heat Blues"
 
 _11 APR 2017_
@@ -34,6 +38,8 @@ Tommy Johnson: https://en.wikipedia.org/wiki/Tommy_Johnson_(musician)
 
 Delta Blues: https://en.wikipedia.org/wiki/Delta_blues
 
+_If you liked this, check out_: Lightnin' Hopkins, Robert Johnson (no relation), Howlin' Wolf, Ishman Bracey, Muddy Waters
+
 ## Duke Ellington - "It Don't Mean A Thing"
 
 _13 APR 2017_
@@ -41,6 +47,8 @@ _13 APR 2017_
 Youtube Link: https://www.youtube.com/watch?v=qDQpZT3GhDg
 
 Duke Ellington: https://en.wikipedia.org/wiki/Duke_Ellington
+
+_If you liked this, check out_: Benny Goodman, The Andrews Sisters, Glenn Miller
 
 ## George Cohan - "Over There"
 
@@ -51,3 +59,5 @@ Youtube Link: https://www.youtube.com/watch?v=BCUzD5eBTNU
 Over There: https://en.wikipedia.org/wiki/Over_There
 
 George Cohan (composer): https://en.wikipedia.org/wiki/George_M._Cohan
+
+_If you liked this, check out_: "It's A Long Way To Tipperary", "The Last Long Mile", "Praise The Lord and Pass the Ammunition" (technically WWII, but similar), "The Rose of No Man's Land"
