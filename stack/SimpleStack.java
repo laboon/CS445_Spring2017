@@ -71,6 +71,9 @@ public class SimpleStack {
      */
     
     public String toString() {
+	if (_data.size() == 0) {
+	    return "[ ]";
+	}
 	StringBuilder toReturn = new StringBuilder("[ ");
 	for (int j=0; j < (_data.size() - 1); j++) {
 	    toReturn.append(_data.get(j) + ", ");
