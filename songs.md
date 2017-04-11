@@ -38,7 +38,7 @@ Tommy Johnson: https://en.wikipedia.org/wiki/Tommy_Johnson_(musician)
 
 Delta Blues: https://en.wikipedia.org/wiki/Delta_blues
 
-_If you liked this, check out_: Lightnin' Hopkins, Robert Johnson (no relation), Howlin' Wolf, Ishman Bracey, Muddy Waters
+_If you liked this, check out_: Lightnin' Hopkins, Robert Johnson (no relation), Howlin' Wolf (Chicago Blues), Muddy Waters (Chicago Blues), Blind Lemon Jefferson, Lead Belly
 
 ## Duke Ellington - "It Don't Mean A Thing"
 
