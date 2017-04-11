@@ -44,11 +44,13 @@ _If you liked this, check out_: Lightnin' Hopkins, Robert Johnson (no relation),
 
 _13 APR 2017_
 
-Youtube Link: https://www.youtube.com/watch?v=qDQpZT3GhDg
+Youtube Link: https://www.youtube.com/watch?v=eOEwGyePgWU
 
 Duke Ellington: https://en.wikipedia.org/wiki/Duke_Ellington
 
-_If you liked this, check out_: Benny Goodman, The Andrews Sisters, Glenn Miller
+Vocals by Ivie Anderson: https://en.wikipedia.org/wiki/Ivie_Anderson
+
+_If you liked this, check out_: Benny Goodman, The Andrews Sisters, Glenn Miller, Ted Weems (from Pitcairn, PA!)
 
 ## George Cohan - "Over There"
 
